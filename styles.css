@@ -1,0 +1,66 @@
+/* Shared stylesheet for the four-page portfolio */
+body {
+  padding: 25px;
+  margin: 0;
+  background-color: #e6e6e6; /* light silver */
+  color: #303030; /* deep charcoal */
+  font-family: Georgia, serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #8b2f2f; /* dark brick red */
+}
+
+a:hover {
+  color: #c65d21; /* burnt orange */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #9a4214; /* dark burnt orange */
+  font-family: "Arial Black", sans-serif;
+  line-height: 1.3;
+}
+
+header, main, footer {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+th, td {
+  border: 1px solid #777;
+  padding: 8px;
+  text-align: left;
+}
+
+footer {
+  border-top: 1px solid #999;
+  padding-top: 10px;
+}
